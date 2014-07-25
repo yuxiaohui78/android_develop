@@ -1,0 +1,8 @@
+{"username":"mike chen", "status":"100", "totalCount":"5",
+"itemArray":[ 
+{"type":"CARDIO","description":"Running", "complete_value":"10", "unit":"minutes", "calories":"480"},
+{"type":"CARDIO","description":"Swimming", "complete_value":"120", "unit":"minutes", "calories":"120"},
+{"type":"CARDIO","description":"Walk", "complete_value":"120", "unit":"minutes", "calories":"180"},
+{"type":"CARDIO","description":"Bike Riding", "complete_value":"120", "unit":"minutes", "calories":"280"},
+{"type":"CARDIO","description":"Dog walking", "complete_value":"120", "unit":"minutes", "calories":"800"}
+]}

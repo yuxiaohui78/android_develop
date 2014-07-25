@@ -1,0 +1,22 @@
+{
+"moduleName":"XXX algorithm",
+"type":"python",
+"exeFile":"xxx/sss.py",
+
+"inputFiles":[ 
+{"inputFileDescribes":"Select the differential expressed genes", "paramPos":"1"},
+{"inputFileDescribes":"Select the whole micro-array tested genes", "paramPos":"2"}
+],
+
+"inputParams":[
+{"paramDescribe":"Maximum size", "defaultValue":"10.5", "paramPos":"3"},
+{"paramDescribe":"Minimum size", "defaultValue":"-5", "paramPos":"4"},
+{"paramDescribe":"Average size", "defaultValue":"3.7", "paramPos":"5"},
+{"paramDescribe":"enableLog", "defaultValue":"true", "paramPos":"6"}
+],
+
+"outputFiles":[
+{"outputFileName":"xxx/output.cvs", "paramPos":"7"}
+]
+
+}
