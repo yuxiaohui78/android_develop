@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B4CDE6"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.roundedimageview.MainActivity$PlaceholderFragment" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:padding="0.0dip" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="68dp"
+                android:layout_marginLeft="34dp"
+                android:background="@drawable/lyrics_bg" />
+
+            <com.example.roundedimageview.RoundedImageView
+                android:id="@+id/sm_reset"
+                android:layout_width="68.0dip"
+                android:layout_height="68.0dip"
+                android:layout_alignParentLeft="true"
+                android:contentDescription="@null"
+                android:padding="0.0dip"
+                android:scaleType="centerCrop"
+                android:src="@drawable/headimage_bg" />
+
+            <com.example.roundedimageview.RoundedImageView
+                android:id="@+id/head_image"
+                android:layout_width="60.0dip"
+                android:layout_height="60.0dip"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="4dip"
+                android:layout_marginTop="4dip"
+                android:contentDescription="@null"
+                android:padding="0.0dip"
+                android:scaleType="centerCrop"
+                android:src="@drawable/girl1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/head_image"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/recent_song_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="仙剑奇侠传"
+                    android:textColor="#ffff00"
+                    android:textSize="20dip" />
+
+                <TextView
+                    android:id="@+id/recent_reg_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="杨幂"
+                    android:textColor="#ffff00"
+                    android:textSize="15dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    
+</LinearLayout>
