@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">barcode scanner</string>
+    <string name="placeHolder">placeHolder</string>
+    <string name="seekbar_add">+</string>
+    <string name="seekbar_minus">-</string>
+    <string name="create">generating</string>
+    <string name="scan_failed">Scan failed!</string>
+    <string name="bottom_hint">Keeping about 10cm distance between camera and barcode.</string>
+    <string name="top_hint">Please make sure the barcode is on the INSIDE of the camera aperture.</string>
+    <string name="cancel">cancel</string>
+    <string name="msg_camera_framework_bug">Sorry, Android camera problem.</string>
+    <string name="button_ok">OK</string>
+
+</resources>
